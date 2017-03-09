@@ -8,4 +8,4 @@
 4. 查看/收起全部评论
 5. 自适应手机屏幕
 6. 部署到个人的gh-pages或coding-pages
-7. 提供作品静态页面地址 **account**.github.io/moments/ 或者 **account**.coding.me/moments/
+7. 提供作品静态页面地址 `your-account`.github.io/moments/ 或者 `your-account`.coding.me/moments/
