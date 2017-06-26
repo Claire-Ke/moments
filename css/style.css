@@ -1,0 +1,237 @@
+/*通用样式*/
+html,body,div,ul,li,p,img{
+    margin:0;
+    padding:0;
+}
+html{
+    background-color: #fff;
+    font-family: "Microsoft YaHei",sans-serif;
+    font-size: 14px;
+}
+ul {
+    list-style: none none;
+}
+.font12{
+    font-size: 0.85rem;
+    color: #ACB1B7;
+}
+.mleft4{
+    margin-left: 4px;
+}
+.mtop4{
+    margin-top:4px;
+}
+.mtop8{
+    margin-top:8px;
+}
+.pull-right{
+    float:right;
+}
+.pull-left{
+    float:left;
+}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.clearfix{*+height:1%;}
+/*头部样式*/
+header{
+    position: relative;
+}
+.header-container{
+    max-height:210px;
+    width:100%;
+    overflow: hidden;
+    height:auto;
+}
+img{
+    border:0;
+}
+.img-responsive {
+  display: inline-block;
+  height: auto;
+  max-width: 100%;
+}
+.data-info{
+    position: absolute;
+}
+.data-info{
+    right: 16px;
+    bottom: 16px;
+}
+.data-info .data-name{
+    margin-right: 12px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.14rem;
+    text-shadow: 1px 1px rgba(0,0,0,0.7);
+    height:48px;
+    line-height:48px;
+}
+.data-info .data-avt{
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.circle{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 5px;
+}
+.data-info .data-avt .circle{
+    position: absolute;
+    right: -4px;
+    top: -4px;
+}
+/*消息列表*/
+.main-container{
+    height:auto;
+    padding-bottom:16px;
+}
+.list, .list li, .po-hd, .post {
+    overflow: hidden;
+}
+.list li, .po-hd {
+    position: relative;
+}
+.main-container .list li{
+    padding-top:16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #e2e2e2;
+}
+/*左侧头像样式*/
+.po-avt-wrap{
+    padding-left:16px;
+}
+.po-avt{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 16px;
+    left: 16px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+}
+/*右侧样式*/
+.po-cmt {
+    padding-left: 64px;
+    padding-right:16px;
+    width: 100%;
+    box-sizing: border-box;
+    color: #41454d;
+}
+.po-name {
+    font-weight: bold;
+    font-size: 1.07rem;
+}
+.post .data-title{
+    margin-top:2px;
+    font-size:1rem;
+}
+.post .data-msg{
+    font-size:0.92rem;
+    width:-webkit-fill-available;
+    width:-moz-fill-available;
+    width:-ms-fill-available;
+    width:fill-available;
+}
+/*操作样式*/
+.flex{
+    display:-webkit-box;
+    display:-moz-box;
+    display:-ms-flexbox;
+    display:-webkit-flex;
+    display:flex;
+    -webkit-flex-flow:row wrap;
+    justify-content:flex-start;
+}
+.data-num{
+    width: 100%;
+}
+.main-container .list .data-num li{
+    margin:12px 0;
+    padding:0;
+    border:0;
+    display: inline-flex;
+}
+.data-num li img{
+    width:17px;
+    height:17px;
+}
+li .num-width{
+    display:inline-block;
+    width:54px;
+    color:#80858c;
+    font-size:0.85rem;
+}
+.cmt-wrap {
+    width: 100%;
+}
+.cmt-list{
+    padding-top: 4px;
+}
+.cmt-wrap p{
+    font-size:1rem;
+    color:#41454d;
+}
+p .cmt-name{
+    color:#5bafff;
+}
+/*分享链接样式*/
+.link-to{
+    display: flex;
+    width:100%;
+    background-color: #f7f7f7;
+    vertical-align: middle;
+    height:auto;
+}
+.link-to span{
+    display: inline-flex;
+    align-items: center;
+}
+/*图片展示样式*/
+.post img {
+    padding-right: 4px;
+}
+.img0{
+    width:40px;
+    height:40px;
+    margin:6px;
+}
+.img1{
+    width:172px;
+    height:172px;
+    padding-top:4px;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+}
+.img2{
+    width: 50%;
+    float: left;
+    max-width: 134px;
+    max-height: 134px;
+    padding-top: 4px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.img3{
+    width:33.3%;
+    float: left;
+    max-width:88px;
+    max-height:88px;
+    padding-top:4px;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+}
+.msg-showall{
+    text-align: center;
+    margin-top:12px;
+    font-size:0.85rem;
+    color:#acb1b7;
+}
